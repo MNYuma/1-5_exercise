@@ -7,7 +7,7 @@ h1 {
 header {
   width: 100%;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 header h1 {
@@ -17,8 +17,8 @@ header h1 {
 .nav-list {
   text-align: center;
   margin: 0 auto;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
+  border-top: 1px solid #848282;
+  border-bottom: 1px solid #848282;
   padding: 15px 0;
 }
 
@@ -29,11 +29,9 @@ header h1 {
 
 main {
   width: 800px;
-  margin: 0 auto;
+  margin: 50px auto;
   display: flex;
   flex-wrap: wrap;
-  padding: 50px 0;
-  justify-content: center;
 }
 
 .box {
@@ -94,9 +92,10 @@ footer {
   width: 100%;
   background-color: #848282;
   text-align: center;
+  line-height: 120px;
+
 }
 
 footer p {
   color: white;
-  line-height: 120px;
 }
