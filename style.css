@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+h1 {
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  font-size: 36px;
+}
